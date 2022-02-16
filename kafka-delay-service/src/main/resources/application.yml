@@ -1,0 +1,5 @@
+kafka:
+  servers: 10.20.200.166:9092
+  group-id: kafka-delay-group
+  topics: 5000,topic-delay-5s;60000,topic-delay-1m
+
